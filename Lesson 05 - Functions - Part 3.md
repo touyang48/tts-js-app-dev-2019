@@ -150,7 +150,7 @@ totalAssignments === 24;
 Sometimes you want to create a scope so that you can have private variables. One way to do that is to create an anonymous function and immediately execute it.
 
 ```javascript
-
+ 
 (function(){
 	var myVar = "look mom, private variables!";
 	
@@ -182,7 +182,24 @@ console.log(myVar); //undefined;
 7. Log the results to the screen and `join` them with a line break.
 
 
-Exercise Answer:
+Exercise Answer
+
+var superHeroes = [ ["Batman" , "Bruce Wayne"] , ["Spiderman" , "Peter Parker"] , [ "The Flash" , "Barry Allen" ] ];
+
+var secretIdentity = superHeroes.map(funtion(revealArray)
+
+return revealArray.join(" is ");
+
+});
+
+console.log(secretIdentity.join)
+
+
+
+
+
+
+
 
 ```javascript
 var superHeroes = [ ["Batman", "Bruce Wayne"],
