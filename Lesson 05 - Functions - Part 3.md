@@ -76,7 +76,7 @@ var students = [
 ];
 
 var passingStudents = students.filter(function(student){
-	return student.average > 50;
+	return student.average > 60;
 });
 
 passingStudents === [
@@ -97,7 +97,7 @@ var students = [
 ];
 
 var passingStudents = students.find(function(student){
-	return student.average > 50;
+	return student.average > 60;
 });
 
 passingStudents === [
